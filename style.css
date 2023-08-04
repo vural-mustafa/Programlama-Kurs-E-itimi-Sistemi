@@ -1,0 +1,294 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Cabin", sans-serif;
+  margin: 0;
+}
+#menu {
+  height: 80px;
+  background-color: greenyellow;
+  padding: 0 20px;
+}
+#logo {
+  font-size: 30px;
+  line-height: 70px;
+  color: #003666;
+  float: left;
+}
+nav {
+  float: right;
+  line-height: 80px;
+}
+nav a:link {
+  text-decoration: none;
+  margin-right: 25px;
+  color: #003666;
+}
+nav a:hover {
+  border-bottom: 2px solid #003666;
+}
+.ikon {
+  margin-right: 8px;
+  font-size: 18px;
+}
+#anasayfa {
+  height: 1000px;
+  background-image: url("resimler/img/programlama-dilleri-betik-diller.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+#black {
+  height: 780px;
+  background-color: black;
+  opacity: 0.1;
+}
+#icerik {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+}
+#Hakkimizda {
+  background-color: f8f9fa;
+  padding: 50px;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+h3 {
+  font-size: 50px;
+  color: #003666;
+  text-shadow: 0px 1px 1px black;
+  font-weight: 600;
+}
+.container {
+  width: 1000px;
+  height: auto;
+  margin: auto;
+}
+#sol {
+  float: left;
+  border-right: 3px solid #445c6e;
+  font-size: 30px;
+  width: 400px;
+  color: 445c6e;
+}
+#h5sol {
+  line-height: 1.6;
+  font-size: 22px;
+  font-weight: 600;
+}
+#h5sol,
+#sağ {
+  margin: 0;
+  padding: 0 20px;
+  margin-top: 20px;
+}
+span {
+  font-size: 40px;
+  margin-right: 8px;
+  line-height: 48px;
+  color: #003666;
+  font-weight: 600;
+  float: left;
+}
+#sağ {
+  float: right;
+  width: 600px;
+  color: #999999;
+  text-align: left;
+  letter-spacing: 2px;
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 200;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.mt100 {
+  margin-top: 100px;
+}
+#pson {
+  color: #999999;
+  letter-spacing: 2px;
+  font-size: 15px;
+  text-align: left;
+  line-height: 1.8;
+  font-weight: 200;
+  margin-top: 20px;
+}
+.img-fluid,
+#pson,
+#h5sol {
+  float: left;
+}
+#egitimler {
+  background-color: #fff;
+  padding: 50px;
+  text-align: center;
+  height: 700px;
+}
+.card {
+  width: 300px;
+  height: 600px;
+  border: 1px solid #ddd;
+  padding: 0;
+  display: inline-block;
+}
+.baslikcard {
+  font-size: 20px;
+  color: #003666;
+}
+.cardp {
+  color: #888;
+}
+.card:hover {
+  border: 1px solid grey;
+}
+
+.aspect-ratio {
+  padding-top: 56.25%;
+  position: relative;
+}
+.aspect-ratio > img {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  object-fit: fill;
+}
+#ekip{
+  text-align: center;
+  background-color: #003666;
+  padding: 30px;
+  height:1000px ;
+  display: inline-block;
+}
+#ekiph3{
+  color: white;
+}
+.sutun-sol-sag{
+  width: 325px;
+  float: left;
+  padding: 30px;
+  color: white;
+  letter-spacing: 2px;
+}
+.ekipisim{
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+.oval{
+  border-radius: 50%;
+}
+.ekipp{
+  color: #888;
+  font-size: 15px;
+}
+.social{
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  width: 50px;
+  border-radius: 10%;
+  margin: 10px 5px;
+}
+.social:hover{
+  background-color: green;
+}
+.sutun{
+  width: 385px;
+  float: left;
+  padding: 10px;
+color: white;
+}
+
+#iletisim{
+background: url("resimler/img/iletisim.jpg");
+background-size: cover;
+padding: 60px;
+height: auto;
+text-align: center;
+}
+#iletisimopak{
+  background: rgba(255,255,255,0.4);
+  padding: 30px 20px;
+  border-radius: 3px;
+  margin-bottom: 50px;
+  height: 550px;
+}
+#formgroup{
+  width: 700px;
+  float: left;
+  height: 500px;
+  text-align:left;
+  border-radius: 5px;
+}
+#form-sol{
+  width: 50%;
+  float: left;
+  padding-right: 5px;
+}
+#form-sag{
+  width: 50%;
+  float: right;
+  padding-left: 5px;
+}
+.form-control{
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #495057;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+textarea{
+  font-family: Arial;
+}
+input[type="submit"]{
+  cursor: pointer;
+  background-color: #445c6e;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 10px 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#adres{
+  width: 450px;
+  float: left;
+  padding: 20px 40px;
+  height: 500px;
+  text-align: left;
+}
+#adresbaslik{
+  font-size: 30px;
+  color:blue;
+}
+.adresp{
+  color: blue;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+}
+#copyright{
+  color: blue;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+#up{
+  color: blue;
+  border: 2px solid blue;
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 10px 10px;
+  margin-top: 20px;
+}
